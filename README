@@ -1,0 +1,20 @@
+DISCLAIMER:
+  Originally i had to write this program to pass a lecture for 
+  my computer sciences studies. So this program is mainly for 
+  educational purposes and neither it shows good programming
+  style nor is it the best way to get things done, it just works
+  for me. Nevertheless it can be useful because there aren't many
+  informations for the topic in the web.
+
+COMPILE:
+  - install svgalib (called libvga on debian)
+  - install nasm (the Netwide Assembler)
+  a)
+    - type "nasm -f elf asm_effect.s"
+    - type "gcc asm_effect.o -lvga -o asm_effect"
+  b)
+    - run "make" inside the project root folder
+   
+RUN:
+  - type "sudo ./particle_fountain"
+
