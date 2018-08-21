@@ -5,7 +5,7 @@
 srcname = asm_effect
 target  = particle_fountain
 
-all: 
+all:
 	nasm -f elf ${srcname}.s
 	gcc -v ${srcname}.o -lvga -o ${target}
 
